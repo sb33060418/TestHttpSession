@@ -29,7 +29,7 @@ public class Config {
 	public JedisConnectionFactory connectionFactory() {
 		JedisConnectionFactory connection = new JedisConnectionFactory(); // <3>
 		connection.setPort(6379);
-		connection.setHostName("192.168.24.31");
+		connection.setHostName("192.168.1.106");
 		return connection;
 	}
 }
